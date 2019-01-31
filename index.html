@@ -5,13 +5,13 @@
     <title>Catan Dice</title>
     <link rel="stylesheet" type="text/css" href="js/Minimal-Animated-jQuery-Data-Visualization-Plugin-Dataviz/style.css" />
     <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css?v=<?= time() ?>">
+    <link rel="stylesheet" href="css/app.css?v=now">
 </head>
 <body>
 
 <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
 
-<script type="text/javascript" src="js/Minimal-Animated-jQuery-Data-Visualization-Plugin-Dataviz/jquery.dataviz_modified.js?v=<?= time() ?>"></script>
+<script type="text/javascript" src="js/Minimal-Animated-jQuery-Data-Visualization-Plugin-Dataviz/jquery.dataviz_modified.js?v=now"></script>
 <script src="js/vendor/what-input.js"></script>
 <script src="js/vendor/foundation.js"></script>
 <script src="js/app.js"></script>
@@ -115,10 +115,17 @@
             <div id="bar_graph_wrapper"></div>
         </div>
         <div class="grid-x indexes">
-            <?php  for($i = 2;  $i<=12; $i++):
-                ?>
-                <div class="cell auto"><?= $i ?></div>
-            <?php endfor;?>
+            <div class="cell auto">2</div>
+            <div class="cell auto">3</div>
+            <div class="cell auto">4</div>
+            <div class="cell auto">5</div>
+            <div class="cell auto">6</div>
+            <div class="cell auto">7</div>
+            <div class="cell auto">8</div>
+            <div class="cell auto">9</div>
+            <div class="cell auto">10</div>
+            <div class="cell auto">11</div>
+            <div class="cell auto">12</div>
         </div>
     </div>
     <div class="cell large-4 small-12">
