@@ -1,0 +1,35 @@
+body.night{
+    filter: invert(100% );
+    background-color: #000;
+}
+div{
+    text-align: center;
+}
+.indexes.grid-x{
+    padding-left: calc(100vw/24);
+    padding-right: calc(100vw/24);
+}
+.button.dice{
+    background-color: initial;
+}
+.button.dice:hover{
+    background-color: initial;
+}
+.left_col{
+    position: relative;
+}
+#bar_graph_wrapper{
+    margin-top: 3rem;
+}
+
+.sum_display{
+    position: absolute;
+    margin: 1rem auto 0;
+    left:0;right:0;
+    top:0;
+    font-size: 6em;
+}
+div.total_roll{
+    display: block;
+    font-size: 3rem;
+}
